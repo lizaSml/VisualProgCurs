@@ -1,0 +1,10 @@
+.vscode
+CMakeFiles
+Course_autogen
+Course
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+.app*
+*.autosave
+Makefile

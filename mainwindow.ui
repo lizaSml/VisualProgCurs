@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>954</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="login_title">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>USERNAME</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="workout">
+       <attribute name="title">
+        <string>Тренировки</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QPushButton" name="create_button_workout">
+          <property name="text">
+           <string>Создать</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="delete_button_workput">
+          <property name="text">
+           <string>Удалить</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="workout_list"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="food">
+       <attribute name="title">
+        <string>Питание</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QPushButton" name="create_button_food">
+          <property name="text">
+           <string>Создать</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="delete_button_food">
+          <property name="text">
+           <string>Удалить</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="food_list"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>954</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="save"/>
+    <addaction name="load"/>
+   </widget>
+   <widget class="QMenu" name="account">
+    <property name="title">
+     <string>Аккаунт</string>
+    </property>
+    <addaction name="account_create"/>
+    <addaction name="account_login"/>
+    <addaction name="account_exit"/>
+   </widget>
+   <addaction name="file"/>
+   <addaction name="account"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="save">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="load">
+   <property name="text">
+    <string>Загрузить</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Создать</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </action>
+  <action name="account_login">
+   <property name="text">
+    <string>Войти</string>
+   </property>
+  </action>
+  <action name="account_exit">
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </action>
+  <action name="action_Cjplfnm">
+   <property name="text">
+    <string> Cjplfnm</string>
+   </property>
+  </action>
+  <action name="account_create">
+   <property name="text">
+    <string>Создать</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
